@@ -91,8 +91,8 @@
 <wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
 <circle x="0" y="0" radius="2" width="0.1524" layer="21"/>
-<pad name="IN" x="-1.27" y="0" drill="0.8128" diameter="1.4224" shape="long" rot="R90"/>
-<pad name="OUT" x="1.27" y="0" drill="0.8128" diameter="1.4224" shape="long" rot="R90"/>
+<pad name="IN" x="-1.27" y="0" drill="0.8128" diameter="1.4224" shape="offset" rot="R180"/>
+<pad name="OUT" x="1.27" y="0" drill="0.8128" diameter="1.4224" shape="offset"/>
 <text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -117,8 +117,8 @@ type 0204, grid 7.5 mm</description>
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="0.8128" shape="offset" rot="R180"/>
+<pad name="2" x="3.81" y="0" drill="0.8128" shape="offset"/>
 <text x="-2.54" y="1.2954" size="0.9906" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.6256" y="-0.4826" size="0.9906" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
