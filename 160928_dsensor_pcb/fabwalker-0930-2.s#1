@@ -274,7 +274,7 @@ type 0204, grid 7.5 mm</description>
 <instance part="JP8" gate="G$1" x="104.14" y="104.14"/>
 <instance part="JP9" gate="G$1" x="104.14" y="96.52"/>
 <instance part="JP10" gate="G$1" x="104.14" y="88.9"/>
-<instance part="R3" gate="G$1" x="58.42" y="88.9" rot="R90"/>
+<instance part="R3" gate="G$1" x="58.42" y="93.98" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -285,14 +285,14 @@ type 0204, grid 7.5 mm</description>
 <pinref part="JP7" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="111.76" x2="53.34" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="111.76" x2="101.6" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="111.76" x2="101.6" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="53.34" x2="53.34" y2="111.76" width="0.1524" layer="91"/>
 <junction x="53.34" y="111.76"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="88.9" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
-<junction x="63.5" y="111.76"/>
+<wire x1="63.5" y1="93.98" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
+<junction x="58.42" y="111.76"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -307,7 +307,7 @@ type 0204, grid 7.5 mm</description>
 <segment>
 <pinref part="JP6" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="88.9" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="JP10" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="88.9" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
